@@ -1,0 +1,351 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.15f1 (e8e88683f834) revision 15263878'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Education' Language: 'en' Physical Memory: 15722 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Adrian/My project
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+58025
+Successfully changed project path to: C:/Users/Adrian/My project
+C:/Users/Adrian/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17568] Host "[IP] 10.129.139.120 [Port] 0 [Flags] 2 [Guid] 3221411882 [EditorId] 3221411882 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5DBLJAE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17568] Host "[IP] 10.129.139.120 [Port] 0 [Flags] 2 [Guid] 3221411882 [EditorId] 3221411882 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-5DBLJAE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 138.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.15f1 (e8e88683f834)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Adrian/My project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x164c)
+    Vendor:   ATI
+    VRAM:     7861 MB
+    Driver:   31.0.12015.1008
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010140 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 123.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.020 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1021ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (748ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (480ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (124ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (239ms)
+				ProcessInitializeOnLoadMethodAttributes (101ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.011501 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Adrian\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Adrian\My project\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  1.640 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1641ms)
+		BeginReloadAssembly (171ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1289ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (446ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (550ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (362ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3374 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (117.6 KB). Loaded Objects now: 3947.
+Memory consumption went from 119.2 MB to 119.1 MB.
+Total: 5.475800 ms (FindLiveObjects: 0.489200 ms CreateObjectMapping: 0.194000 ms MarkObjects: 4.566900 ms  DeleteObjects: 0.222800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1480610.369544 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Props/sptp_air_conditioning_01.FBX
+  artifactKey: Guid(aa44ac0d867342d4b90d4b81b2c31902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Props/sptp_air_conditioning_01.FBX using Guid(aa44ac0d867342d4b90d4b81b2c31902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21eba4e72018abacd07c940a3a66d27f') in 0.546526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Props/sptp_air_conditioning_04.FBX
+  artifactKey: Guid(ba0a45d3aaf0a81499a99a90eca1ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Props/sptp_air_conditioning_04.FBX using Guid(ba0a45d3aaf0a81499a99a90eca1ef66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c6761a4b3f006c2be1a06b7b49587a') in 0.056888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Props/sptp_street_light_02.FBX
+  artifactKey: Guid(99c8d99cb2b5cb747926f046a5dde01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Props/sptp_street_light_02.FBX using Guid(99c8d99cb2b5cb747926f046a5dde01f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a634ea481810543a996ca1a8832d3714') in 0.033799 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Props/sptp_air_conditioning_03.FBX
+  artifactKey: Guid(b187c1eed8feb264285bb4bd3ec5fd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Props/sptp_air_conditioning_03.FBX using Guid(b187c1eed8feb264285bb4bd3ec5fd79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8f15ff9398066e83e5571f06c677f5') in 0.056065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Props/sptp_bin_02.FBX
+  artifactKey: Guid(794348e356afbc9429a87c32285abe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Props/sptp_bin_02.FBX using Guid(794348e356afbc9429a87c32285abe67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cce0cea71679061cc008736950a90f') in 0.036186 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Props/sptp_billboard_01.FBX
+  artifactKey: Guid(72b58c4dee9c06141869c041d64e3c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Props/sptp_billboard_01.FBX using Guid(72b58c4dee9c06141869c041d64e3c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ab37b40273d8c918bb15cd9eb0a56d') in 0.039026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Props/sptp_mail_box_01.FBX
+  artifactKey: Guid(7ab034c894dbe39408860a18216d047c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Props/sptp_mail_box_01.FBX using Guid(7ab034c894dbe39408860a18216d047c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96dfb6c2c4adf3f51a03c60aa457bf3c') in 0.035685 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Props/sptp_dumpster_01.FBX
+  artifactKey: Guid(4fe93593c00d0274291366d8b0fb1691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Props/sptp_dumpster_01.FBX using Guid(4fe93593c00d0274291366d8b0fb1691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93b7de9d27cc31435fabe9f6ee7a881') in 0.034730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Props/sptp_bin_01.FBX
+  artifactKey: Guid(551faa9f9e362aa4fb7abf44d3e7d1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Props/sptp_bin_01.FBX using Guid(551faa9f9e362aa4fb7abf44d3e7d1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0dfa2ed50817d134b6c3be4cb957d2') in 0.036101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.288013 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_01.FBX
+  artifactKey: Guid(e4452562655a94842af3cc73a8d6db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_01.FBX using Guid(e4452562655a94842af3cc73a8d6db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8540f26b53c5b7bf318bc9ab509f02') in 0.023085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_15.FBX
+  artifactKey: Guid(0476e85d484c17943b575696fc1aa806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_15.FBX using Guid(0476e85d484c17943b575696fc1aa806) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9c7275f08b031a1454cc903cc6edbd') in 0.026126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_24.FBX
+  artifactKey: Guid(48c0c1fb919ca004a976079d78126956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_24.FBX using Guid(48c0c1fb919ca004a976079d78126956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d431ea0d9a7bdc7cdb01319d9dd4c3') in 0.026317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_08.FBX
+  artifactKey: Guid(745e0a5bd91c37d4e9e91cce05cc14c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_08.FBX using Guid(745e0a5bd91c37d4e9e91cce05cc14c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11794fcd5cd6024a18ffcb3757ea0141') in 0.026998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_26.FBX
+  artifactKey: Guid(0989c5f0d787c1f468d7bade6bdd7391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_26.FBX using Guid(0989c5f0d787c1f468d7bade6bdd7391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b05c66bea5f2d4c17a6057350df623') in 0.026392 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_03.FBX
+  artifactKey: Guid(6a90a2ff4084f4d45a1a1c21eab2b597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_03.FBX using Guid(6a90a2ff4084f4d45a1a1c21eab2b597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f1d08ed4f36d4d4238de1bf6afa82d1') in 0.029327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_29.FBX
+  artifactKey: Guid(ad3cf15462b4a214f9fd70dd549e9986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_29.FBX using Guid(ad3cf15462b4a214f9fd70dd549e9986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85bd74029653dd9248b5f01ca31dbca3') in 0.023142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_13.FBX
+  artifactKey: Guid(754f60096a070384db9dc966a4bdc5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_13.FBX using Guid(754f60096a070384db9dc966a4bdc5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54f8c32c2e346a38827dcda2c3e3da2') in 0.026691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_23.FBX
+  artifactKey: Guid(f8cacfed4104c7e4e889843815678cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_23.FBX using Guid(f8cacfed4104c7e4e889843815678cfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e428a8b90cf52c4887920adea3853a') in 0.024085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_21.FBX
+  artifactKey: Guid(4f0c739edabc7d144bc82a3882bdaf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_21.FBX using Guid(4f0c739edabc7d144bc82a3882bdaf81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9631e0da132595af75b9802a28dc12') in 0.023930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_14.FBX
+  artifactKey: Guid(78c97626fed012e4f9c5ce5a5c7e18f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_14.FBX using Guid(78c97626fed012e4f9c5ce5a5c7e18f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fce9da1ed82083150839bf712c855d2') in 0.027779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_22.FBX
+  artifactKey: Guid(edc41dbd86c9b054d958beee7a9bea48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_22.FBX using Guid(edc41dbd86c9b054d958beee7a9bea48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc9225c48cb05bd348036639a3468fd') in 0.024723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_32.FBX
+  artifactKey: Guid(a82bd67ed683ae846b35fa3b4baa9fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_32.FBX using Guid(a82bd67ed683ae846b35fa3b4baa9fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a86aa7ee8362150744a75295ba251c') in 0.027223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_35.FBX
+  artifactKey: Guid(35f5b913ad01f8f4bb678c6222f8f8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_35.FBX using Guid(35f5b913ad01f8f4bb678c6222f8f8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78f13c7cb61d11d85851060af1bfaec') in 0.027981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_12.FBX
+  artifactKey: Guid(eb564a8491228404f83928e58a08855e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_12.FBX using Guid(eb564a8491228404f83928e58a08855e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ccebf60edd4b74994d2307396c2e81') in 0.026104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_34.FBX
+  artifactKey: Guid(1bd0e2d50a20fb64ab47b4b9a8f32d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_34.FBX using Guid(1bd0e2d50a20fb64ab47b4b9a8f32d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5629a5d278ed2fd281dbb47867be53d6') in 0.026146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_06.FBX
+  artifactKey: Guid(3cfd88e81c5eeb743838d6c224c7b3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_06.FBX using Guid(3cfd88e81c5eeb743838d6c224c7b3a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd7ff1ccdcf9927096a8ad5bedf3fd2') in 0.025337 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_04.FBX
+  artifactKey: Guid(477afe0d7f2f40b4389fe32797c6eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Buildings/sptp_building_04.FBX using Guid(477afe0d7f2f40b4389fe32797c6eb3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df18c77fd295eb440122c0c012cdb7fc') in 0.025320 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.081158 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Nature/sptp_bush_01.FBX
+  artifactKey: Guid(6980ea277fb024a4ea8540084d1a6445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Nature/sptp_bush_01.FBX using Guid(6980ea277fb024a4ea8540084d1a6445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cced0671e230c9c28b055a78df907e90') in 0.021221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Nature/sptp_tree_01.FBX
+  artifactKey: Guid(675d7e29457a9dc49948bc60f3024cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Nature/sptp_tree_01.FBX using Guid(675d7e29457a9dc49948bc60f3024cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73819146fd4bd794ad83b9906bcf4dba') in 0.023933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/SimplePoly - Town Pack/Meshes/Nature/sptp_stone_02.FBX
+  artifactKey: Guid(4b333372d5cfbe54cafbecf3ced0a55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimplePoly - Town Pack/Meshes/Nature/sptp_stone_02.FBX using Guid(4b333372d5cfbe54cafbecf3ced0a55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9dc20cab783fa8ffafcf9fd28192543') in 0.024304 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
